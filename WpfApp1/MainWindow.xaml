@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Zegar zsel1" Height="300" Width="400" WindowStyle="ThreeDBorderWindow" Visibility="Visible" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Width="400" Height="270">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Stoper" HorizontalAlignment="Left" Margin="150,80,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="Button_Click" Grid.Column="1"/>
+        <Button Content="Minutnik" HorizontalAlignment="Left" Margin="150,115,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="Button_Click_1" Grid.Column="1"/>
+        <Button Content="Alarm" HorizontalAlignment="Left" Margin="150,150,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="Button_Click_2" Grid.Column="1"/>
+        <Label Content="Menu Zegarka" Grid.Column="1" HorizontalAlignment="Left" Margin="79,10,0,0" VerticalAlignment="Top" Height="70" Width="243" FontSize="36"/>
+
+    </Grid>
+</Window>
